@@ -1,0 +1,380 @@
+/* Hide Areas 
+-------------------------------------------------------------------- */
+#nav, 
+.hidden, 
+.nav-util, 
+#nav-main, 
+#nav-sub {
+	display: none;
+	}
+
+a { color: #000; text-decoration: none; }
+
+/* Width of printable area 
+-------------------------------------------------------------------- */
+#primarycontent, 
+#secondarycontent {
+	width: 575px;
+	}
+#content { height: auto; }
+
+body *, 
+div.news *, 
+div.calendar-list *,
+div.calendar-full *, 
+div.news-detail * {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	}
+address {
+	font-style: normal;
+	}
+	
+a img {
+	border: none;
+	}
+
+/* Header 
+------------------------------------------------------ */
+#header {
+	background-image: none;
+	}
+#masthead img { 
+	display: none;
+	}
+#masthead address strong {
+	font-size: 28px;
+	}
+	
+div.news-detail h1 {
+	font-size: 18px;
+	}
+div.news-detail h2 {
+	font-size: 14px;
+	}
+div.news-detail h3 {
+	font-size: 12px;
+	}
+
+#calendars #inner-content img.page-header,
+#calendars #secondary-content,
+#calendars #header,
+#calendars div.cal-customize {
+	display: none;
+	}
+	
+div.calendar-list dl.calendar-day dt {
+	margin: 10px 0;
+	padding: 0 5px;
+	color: #435945;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 14px;
+	background-color: #E5EEE0;
+	}
+div.calendar-list dl.calendar-day dd {	
+	margin: 0 0 10px 15px;
+	font-size: 12px;
+	position: relative;
+	}
+div.calendar-list dl.calendar-day dd h4 {
+	font-weight: normal;
+	font-size: 13px;
+	display: block;
+	clear: both;
+	padding: 0;
+	margin: 0;
+	} 
+div.calendar-list dl.calendar-day dd h5, 
+div.calendar-list dl.calendar-day dd h5 span {
+	font-weight: bold;
+	font-size: 12px;
+	color: #5C8768;
+	display: inline;
+	margin: 0;
+	padding: 0;
+	}
+div.calendar-list dl.calendar-day dd h6, 
+div.calendar-list dl.calendar-day dd em {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 12px;
+	color: #5C8768;
+	display: inline;
+	margin: 0 0 0 5px;
+	padding: 0;
+	}
+	
+div.calendar-list dl.calendar-day dd a.readmore {
+	margin: 0 0 0 15px;
+	padding: 0;
+	}
+/* ------------------------------------------------------------------------------------- */
+/* Weekly Calendar Layouts */
+/* All of this info that is commented out here is unused in Delbarton's layout */
+/* body.layout-p1-s0#calendar #container {
+	width: 97%;
+	}*/
+/* #content {
+	border-left: 1px solid #C8CDD4;
+	border-right: 1px solid #ff0000;
+	background-image: none;
+	}  */
+/* body.layout-p1-s0#calendar #header.calendar #masthead {
+	background: url(../images/calendars/masthead-bg.gif) left top repeat-x #FFF;
+	width: 100%;
+	} */
+/* body.layout-p1-s0#calendar #header.calendar #masthead a {
+	width: 100%;
+	} */
+/* body.layout-p1-s0#calendar #nav-sub {
+	background: url(../images/calendars/nav-sub-bg.gif) top left repeat-x;
+	} */
+/* body.layout-p1-s0#calendar #primary-content {
+	width: 95%;
+	} */
+/* body.layout-p1-s0#calendar #secondary-content {
+	display: none;
+	} */
+/* body.layout-p1-s0#calendar #tertiary-content {
+	display: none;
+	} */
+/* body.layout-p1-s0#calendar #footer {
+	padding: 0;
+	margin: 0;
+	} */
+
+body.layout-p1-s0#calendar table#block, 
+body.layout-p1-s0#calendar table#weekly {
+	}
+body.layout-p1-s0#calendar table#block th, 
+body.layout-p1-s0#calendar table#weekly th {
+	color: #435945;
+	font-weight: bold;
+	background-color: #E5EEE0;
+	font-size: 11px;
+	line-height: 18px;
+	text-align: center;
+	}
+body.layout-p1-s0#calendar table#block td, 
+body.layout-p1-s0#calendar table#weekly td {
+	font-size: 11px;
+	border: 1px solid #D3D3D3;
+	width: 16%;
+	padding: 1px;
+	margin: 0;
+	}
+body.layout-p1-s0#calendar table#block td p, 
+body.layout-p1-s0#calendar table#weekly td p {
+	font-size: 11px;
+	
+}
+body.layout-p1-s0#calendar table#block td span.weekday , 
+body.layout-p1-s0#calendar table#weekly td span.weekday {
+	color: #435945;
+	font-weight: bold;
+	display: block;
+	}
+body.layout-p1-s0#calendar table#block td table, 
+body.layout-p1-s0#calendar table#block td table td, 
+body.layout-p1-s0#calendar table#weekly td table, 
+body.layout-p1-s0#calendar table#weekly td table td {
+	border: none;
+	} 
+	
+/* Annoucements
+-------------------------------------------------------- */
+body#announcements {
+	background-image: none;
+	margin: 5px 0;
+	padding: 0;
+	}
+body#announcements #header {
+	margin: 0;
+	padding: 0;
+	border: none;
+	display: block;
+	header: 6px;
+	}
+body#announcements #masthead {
+	display: none;
+	}
+body#announcements #container { 
+	background: url(http://www.delbarton.org/imagesSP/sheild-bg.gif) 317px 189px no-repeat;
+	}
+body#announcements #inner-container { 
+	background-color: #FFF;
+	border: none;
+	position: relative;
+	clear: both;
+	width: 650px; 
+	background: url(http://www.delbarton.org/images/aboutus/bg_content.gif) left top repeat-y;
+	margin: 0;
+	}
+body#announcements #content {
+	padding: 0;
+	margin: 0;
+	position: relative;
+	height: 1400px;
+	clear: both;
+	}
+body#announcements #inner-content {
+	padding: 0;
+	margin: 0;
+	}
+body#announcements #primary-content.announcements {
+    top: 0;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	/*left: 170px;*/
+	width: 650px;
+	left: 0;
+	}
+body#announcements #secondary-content {
+	display: none;
+	position: absolute;
+	top: 47px;
+	}
+body#announcements div.date {
+	border: 1px solid #C6C6C6;
+	color: #173F2E;
+	background-color: #EAF3EB;
+	line-height: 20px;
+	font: 14px/18px "Arial", Arial, non-serif;
+	margin: 0;
+	padding: 0 12px;
+	}
+body#announcements div.date span {
+	align: right;
+	color: #4B7462;
+	}
+body#announcements div.date span strong {
+	color: #17402E;
+	}
+body#announcements div.date div.calendar-list {
+	margin: 0;
+	padding: 0;
+	float: left;
+	}
+body#announcements div.date div.calendar-list dl.calendar-day {
+	margin: 0;
+	padding: 0;
+	}
+body#announcements div.date div.calendar-list dt {
+	margin: 0;
+	padding: 0;
+	display: none;
+	}
+body#announcements div.date div.calendar-list dd h5,
+body#announcements div.date div.calendar-list dd h4 span {
+	display: none;
+	}
+body#announcements div.date div.calendar-list dd, 
+body#announcements div.date div.calendar-list dd h4 {
+	margin: 0;
+	padding: 0;
+	font: bold 14px/18px "Arial", Arial, non-serif;
+	}
+body#announcements div.madisonblock {
+	background: url(http://www.delbarton.org/imagesSP/hdr-madisonblock.gif) center top no-repeat;
+	padding: 0;
+	margin: 0 0 20px 0;
+	text-align: center;
+	}
+body#announcements div.madisonblock ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font: italic 14px/18px "Georgia", Times, serif;
+	}
+body#announcements div.madisonblock ul li h4 {
+	font-style: normal;
+	font: bold 14px "Georgia", Times, serif;
+	color: #4C4C4C;
+	margin: 0;
+	padding: 0;
+	}
+body#announcements div.madisonblock ul li h5, 
+body#announcements div.madisonblock ul li h6 {
+	display: none;
+	}
+body#announcements div.madisonblock ul li p, {
+	font-size: 11px;
+	}
+body#announcements div.info div.col-1, 
+body#announcements div.info div.col-2 {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 315px;
+	}
+body#announcements div.info div.col-1 ul.news, 
+body#announcements div.info div.col-2 ul.news {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}
+body#announcements div.info div.col-1 ul.news li h4, 
+body#announcements div.info div.col-2 ul.news li h4 {
+	margin: 0 0 6px 0;
+	padding: 0;
+	font-size: 13px;
+	color: #122F11;
+	text-transform: uppercase;
+	}
+
+body#announcements div.info div.col-1 ul.news li h5, 
+body#announcements div.info div.col-2 ul.news li h5, 
+body#announcements div.info div.col-1 ul.news li h6, 
+body#announcements div.info div.col-2 ul.news li h6 {
+	display: none;
+	}
+body#announcements div.info div.col-1 ul.news li, 
+body#announcements div.info div.col-2 ul.news li {
+	margin: 0 0 15px 0;
+	padding: 0;
+	}
+body#announcements div.info div.col-1 ul.news li p, 
+body#announcements div.info div.col-2 ul.news li p {
+	margin: 0 0 6px 0;
+	font-size: 11px;
+	padding: 0;
+	}
+body#announcements div.info div.col-1 ul.news li a.readmore, 
+body#announcements div.info div.col-2 ul.news li a.readmore {
+	color: #538157;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	}
+body#announcements div.schedule-main {
+	clear: both;
+	margin: 0;
+	text-align: center;
+	padding: 0 0 45px 0;
+	background: url(http://www.delbarton.org/imagesSP/hdr-greenwave.gif) center bottom no-repeat;
+	}
+body#announcements div.schedule-main ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	}
+body#announcements div.schedule-main table {
+	border: 1px solid #4A704E;
+	width: 575px;
+	color: #5A5A5A;
+	align: center;
+	margin: 10px 0 0 0;
+	padding: 2px;
+	}
+body#announcements div.schedule-main table tr.alt01 {
+	background-color: #DDEDDF;
+	}
+body#announcements div.schedule-main table tr.alt02 {
+	background-color: #FFF;
+	}
+body#announcements div.schedule-main table tr td {
+	text-align: center;
+	line-height: 20px;
+	font-size: 11px;
+	}

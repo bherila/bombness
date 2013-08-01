@@ -1,0 +1,301 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/IDR.dwt" codeOutsideHTMLIsLocked="false" -->
+<!-- DW6 -->
+<head>
+<!-- Copyright 2005 Macromedia, Inc. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" href="emx_nav_right.css" type="text/css" />
+<script type="text/javascript">
+<!--
+var time = 3000;
+var numofitems = 7;
+
+//menu constructor
+function menu(allitems,thisitem,startstate){ 
+  callname= "gl"+thisitem;
+  divname="subglobal"+thisitem;  
+	this.numberofmenuitems = allitems;
+	this.caller = document.getElementById(callname);
+	this.thediv = document.getElementById(divname);
+	this.thediv.style.visibility = startstate;
+}
+				 
+//menu methods
+function ehandler(event,theobj){
+  for (var i=1; i<= theobj.numberofmenuitems; i++){
+	  var shutdiv =eval( "menuitem"+i+".thediv");
+    shutdiv.style.visibility="hidden";
+	}
+	theobj.thediv.style.visibility="visible";
+}
+				
+function closesubnav(event){
+  if ((event.clientY <48)||(event.clientY > 107)){
+    for (var i=1; i<= numofitems; i++){
+      var shutdiv =eval('menuitem'+i+'.thediv');
+			shutdiv.style.visibility='hidden';
+		}  
+	}
+}
+// -->
+</script>
+<!-- InstanceBeginEditable name="head" -->
+<style type="text/css">
+<!--
+#Layer2 {
+	position:absolute;
+	width:122px;
+	height:24px;
+	z-index:8;
+	background-color: #CCCCCC;
+	top: 105px;
+	left: 12px;
+}
+#Layer3 {
+	position:absolute;
+	width:180px;
+	height:168px;
+	z-index:8;
+	left: 136px;
+	background-color: #CCCCCC;
+	top: 105px;
+}
+.style1 {font-size: x-small}
+#Layer4 {
+	position:absolute;
+	width:122px;
+	height:142px;
+	z-index:8;
+	top: 130px;
+	left: 12px;
+}
+#Layer5 {
+	position:absolute;
+	width:180px;
+	height:27px;
+	z-index:8;
+	left: 320px;
+	top: 245px;
+	background-color: #FFCCFF;
+}
+#Layer6 {
+	position:absolute;
+	width:180px;
+	height:138px;
+	z-index:8;
+	left: 320px;
+	top: 105px;
+}
+#Layer7 {
+	position:absolute;
+	width:205px;
+	height:138px;
+	z-index:8;
+	left: 504px;
+	top: 105px;
+	background-color: #FFCCFF;
+}
+#Layer8 {
+	position:absolute;
+	width:188px;
+	height:90px;
+	z-index:1;
+	left: 83px;
+	top: 144px;
+}
+#Layer9 {
+	position:absolute;
+	width:488px;
+	height:91px;
+	z-index:8;
+	left: 12px;
+	top: 279px;
+	background-color: #CCCC66;
+}
+#Layer10 {
+	position:absolute;
+	width:202px;
+	height:27px;
+	z-index:8;
+	top: 343px;
+	left: 506px;
+	background-color: #CCCC66;
+}
+#Layer11 {
+	position:absolute;
+	width:189px;
+	height:30px;
+	z-index:8;
+	top: 375px;
+	left: 314px;
+	background-color: #FF9900;
+}
+#Layer12 {
+	position:absolute;
+	width:300px;
+	height:135px;
+	z-index:8;
+	left: 12px;
+	top: 375px;
+	background-color: #FF9900;
+}
+#Layer13 {
+	position:absolute;
+	width:189px;
+	height:104px;
+	z-index:8;
+	left: 314px;
+	top: 407px;
+}
+#Layer14 {
+	position:absolute;
+	width:200px;
+	height:30px;
+	z-index:8;
+	left: 507px;
+	top: 375px;
+	background-color: #99CCFF;
+}
+#Layer15 {
+	position:absolute;
+	width:200px;
+	height:105px;
+	z-index:8;
+	left: 507px;
+	top: 407px;
+	background-color: #99CCFF;
+}
+#Layer16 {
+	position:absolute;
+	width:204px;
+	height:93px;
+	z-index:8;
+	left: 504px;
+	top: 248px;
+}
+-->
+</style>
+<!-- InstanceEndEditable -->
+<style type="text/css">
+<!--
+#topminibar {
+	position:absolute;
+	width:98.6%;
+	height:46px;
+	z-index:100;
+	top: 0px;
+	left: 0px;
+	visibility: visible;
+}
+#Layer1 {
+	position:absolute;
+	width:98.6%;
+	height:123px;
+	z-index:5;
+	left: -7px;
+	top: 0px;
+}
+-->
+</style>
+</head>
+<body onmousemove="closesubnav(event);">
+<div class="skipLinks">skip to: <a href="#content">page content</a> | <a href="#pageNav">links on this page</a> | <a href="#globalNav">site navigation</a> | <a href="#siteInfo">footer (site information)</a> </div>
+<div id="masthead">
+  <h1 id="siteName"><br />
+  </h1>
+  <div id="utility"> <a href="#">Contact </a> | <a href="#">Site Map </a> | <a href="#">FAQ</a> </div>
+   <div id="globalNav"> <img alt="" src="gblnav_left.gif" height="32" width="4" id="gnl" /> <img alt="" src="glbnav_right.gif" height="32" width="4" id="gnr" />
+    <div id="globalLink"> <a href="http://www.aol.com" id="gl1" class="glink" onmouseover="ehandler(event,menuitem1);">Home</a><a href="#" id="gl2" class="glink" onmouseover="ehandler(event,menuitem2);">Bio</a><a href="#" id="gl3" class="glink" onmouseover="ehandler(event,menuitem3);">Services</a><a href="#" id="gl4" class="glink" onmouseover="ehandler(event,menuitem4);">Facts</a><a href="#" id="gl5" class="glink" onmouseover="ehandler(event,menuitem5);">Artists</a><a href="#" id="gl6" class="glink" onmouseover="ehandler(event,menuitem6);">Contact</a><a href="#" id="gl7" class="glink" onmouseover="ehandler(event,menuitem7);">Search</a> </div>
+    <!--end globalLinks-->
+    <form id="search" action="">
+      <input name="searchFor" type="text" size="10" />
+      <a href="">search</a>
+    </form>
+  </div>
+  <!-- end globalNav -->
+  <div id="subglobal1" class="subglobalNav"><a href="#"><br />
+  </a> </div>
+  <div id="subglobal2" class="subglobalNav"></div>
+  <div id="subglobal3" class="subglobalNav"></div>
+  <div id="subglobal4" class="subglobalNav"></div>
+  <div id="subglobal5" class="subglobalNav"></div>
+  <div id="subglobal6" class="subglobalNav"></div>
+  <div id="subglobal7" class="subglobalNav"></div>
+  <div id="subglobal8" class="subglobalNav"></div>
+</div>
+<!-- end masthead -->
+
+
+    <div id="pagecell1">
+<!-- InstanceBeginEditable name="EditRegion3" -->
+<p>
+    <!--pagecell1-->
+    <img alt="" src="tl_curve_white.gif" height="6" width="6" id="tl" /> <img alt="" src="tr_curve_white.gif" height="6" width="6" id="tr" />
+  </p>
+  <div id="breadCrumb"> <a href="index.htm">Home</a> / <a href="services.htm">Services</a></div>
+  <div id="pageName">
+    <h2>In-House Services</h2>
+    <img alt="small logo" src="" height="90" width="100"/> </div>
+  <div id="content">
+    <div class="story">
+      <div id="Layer2">
+        <h1 class="capsule">Image Capture </h1>
+      </div>
+      <div id="Layer5">
+        <h1>Proofing</h1>
+      </div>
+      <div id="Layer6"><img src="services.proofing.mini.jpg" width="180" height="138" /></div>
+      <h3>&nbsp;</h3>
+      <div class="capsule" id="Layer3">Tell me all about the image capture process. Tell me all about the image capture process. Tell me all about the image capture process. Tell me all about the image capture process. Tell me all about the image capture process. Tell me all about the image capture process. <a href="imagecapture.htm" class="glink style1">More &raquo; </a> </div>
+      <div id="Layer4"><img src="services.imagecapture.122x142.jpg" width="122" height="142" /></div>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <div id="Layer7">Tell me all about the proofing process. Tell me all about the proofing process. Tell me all about the proofing process. Tell me all about the proofing process. Tell me all about the proofing process. Tell me all about the proofing process.  <a href="imagecapture.htm" class="glink style1">More &raquo; </a></div>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <div id="Layer9">Tell me all about the printing process. Tell me all about the printing process. Tell me all about the printing process. Tell me all about the printing process. Tell me all about the printing process. Tell me all about the printing process. Tell me all about the printing process. Tell me all about the printing process. Tell me all about the printing process. Tell me all about the printing process. Tell me all about the printing process. <a href="imagecapture.htm" class="glink style1">More &raquo; </a></div>
+      <div id="Layer10">
+        <h1>Printing</h1>
+      </div>
+      <div id="Layer11">
+        <h1>Curation / Enhancement </h1>
+      </div>
+      <p>&nbsp;</p>
+      <div id="Layer12">Tell me all about the curation / enhancement process. Tell me all about the curation / enhancement process. Tell me all about the curation / enhancement process. Tell me all about the curation / enhancement process. Tell me all about the curation / enhancement process. <a href="imagecapture.htm" class="glink style1">More &raquo; </a></div>
+      <div id="Layer13"><img src="services.curation.mini.jpg" width="189" height="104" /></div>
+      <div id="Layer14">
+        <h1 align="right">Shipping</h1>
+      </div>
+      <p>&nbsp;</p>
+      <div id="Layer15">Tell me all about the shipping process here. Tell me all about the shipping process here. Tell me all about the shipping process here. <a href="imagecapture.htm" class="glink style1">More &raquo; </a></div>
+      <p>&nbsp;</p>
+      <div id="Layer16"><img src="services.printing.mini.jpg" width="204" height="93" /></div>
+      <p>&nbsp;</p>
+    </div>
+    <div class="story"></div>
+  </div>
+  <!-- InstanceEndEditable -->
+  <!--end content -->
+  <div id="siteInfo"> <img src="" width="44" height="22" /><a href="#">About Us</a> | <a href="#">Site Map</a> | <a href="#">Privacy Policy</a> | <a href="#">Contact Us</a> | &copy;2003 Company Name </div>
+</div>
+    <p>
+  <!--end pagecell1-->
+  <img src="topmediumbar.gif" width="599" height="91" /><br />
+      <script type="text/javascript">
+    <!--
+      var menuitem1 = new menu(7,1,"hidden");
+			var menuitem2 = new menu(7,2,"hidden");
+			var menuitem3 = new menu(7,3,"hidden");
+			var menuitem4 = new menu(7,4,"hidden");
+			var menuitem5 = new menu(7,5,"hidden");
+			var menuitem6 = new menu(7,6,"hidden");
+			var menuitem7 = new menu(7,7,"hidden");
+    // -->
+      </script>
+</p>
+</body>
+<!-- InstanceEnd --></html>

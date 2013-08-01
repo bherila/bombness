@@ -1,0 +1,996 @@
+/* BASIC
+-------------------------------------------------------------------- */
+body { 
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 13px;
+	color: #000;
+	}
+a:link, a:visited {
+	color: #787878;
+	text-decoration: underline;
+	}
+a:hover, a:active {
+
+	}
+a img { 
+	border: none; 
+	}
+strong {
+	color: #787878;
+	}
+
+
+/* GENERAL UTILITIES
+-------------------------------------------------------------------- */
+form	{ padding: 0; margin: 0; }
+p		{ margin-top: 0;}
+.hidden	{ position: absolute; left: -3000px;}
+address,abbr,acronym { font-style: normal; }
+.production-note { color: #F00; }
+.print-instructions { display: none; }
+.clear { clear: both; line-height: 0; height: 0; overflow: hidden; }
+
+/* MASTHEAD
+-------------------------------------------------------------------- */
+#header {
+	height: 89px;
+	background: url(http://www.delbarton.org/images/aboutus/bg_header.gif) right bottom no-repeat;
+	margin: 0 0 17px 0;
+	}
+#masthead { 
+	position: absolute;
+	padding: 0;
+	z-index: 101;
+	}
+	/** /
+#masthead a { 
+	display: block;
+	width: 170px;
+	height: 89px;
+	text-indent: -3000px;
+	background: url(/images/common/logo.gif) left top no-repeat;
+	}
+	/**/
+#masthead address {
+	position: absolute;
+	left: -3000px;
+	}
+	
+/* NAV-MAIN, NAV-SUB, NAV-UTIL, BREADCRUMBS
+-------------------------------------------------------------------- */
+#nav, 
+#nav div.nav-util, 
+#nav-sub, 
+#breadcrumbs {
+	display: none;
+	}
+
+/* POSITIONING
+-------------------------------------------------------------------- */
+body { background: url(http://www.delbarton.org/imagesSP/page-bg.gif) top left repeat-y #E1E1E1; }
+#container { background: url(http://www.delbarton.org/imagesSP/sheild-bg.gif) 317px 189px no-repeat; }
+#inner-container { 
+	background: url(http://www.delbarton.org/images/aboutus/bg_content.gif) left top repeat-y;
+	width: 744px; 
+	margin: 0;
+	}
+#content {
+	position: relative;
+	height: 1400px;
+	clear: both;
+	}
+#inner-content {
+	position: relative;
+	clear: both;
+	}
+#primary-content {
+	position: absolute;
+	top: 47px;
+	left: 170px;
+	padding-bottom: 18px;
+	}
+#secondary-content {
+	position: absolute;
+	top: 47px;
+	}
+
+/* DEFAULT ONE COLUMN LAYOUTS
+-------------------------------------------------------------------- */
+body.layout-p1-s0 #primary-content {
+	width: 720px;
+	postion: relative;
+	left: 0;
+	}
+body.layout-p1-s0 #secondary-content {
+	display: none;
+	}
+
+
+/* DEFAULT TWO COLUMN LAYOUTS
+-------------------------------------------------------------------- */
+body.layout-p2-s1 #primary-content {
+	width: 500px;
+	postion: relative;
+	left: 0;
+	}
+body.layout-p2-s1 #secondary-content {
+	left: 550px;
+	width: 186px;
+	border-left: 1px solid #BBB;
+	}
+body.layout-s1-p2 #primary-content {
+	width: 505px;
+	left: 217px;
+	}
+body.layout-s1-p2 #secondary-content {
+	left: 0;
+	width: 186px;
+	border-right: 1px solid #BBB;
+	}
+.pc {
+	padding: 0 18px 0 12px;
+	}
+.sc {
+	padding: 0 13px 0 18px;
+	}
+	
+/* News/Calendar List
+------------------------------------------------------- */
+div.news *, 
+div.calendar-list *,
+div.calendar-full *, 
+div.news-detail * {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	}
+div.news, 
+div.calendar-list, 
+div.calendar-full {
+	margin: 0 0 23px 0;
+	padding: 0;
+	width: 500px;
+	clear: both;
+	float: left;
+	}
+div.sc-recentevents div.calendar-list {
+	width: 186px;
+	}
+div.news h2, 
+div.calendar-list h2 {
+	margin: 0 0 10px 0;
+	}
+div.news ul.news-list {
+	list-style: none;
+	}
+div.news ul.news-list li {
+	padding: 15px 0;
+	background: url(http://www.delbarton.org/imagesSP/news-divider.gif) left top no-repeat;
+	clear: both;
+	}
+div.news ul.news-list li.first-child {
+	background-image: none;
+	}
+div.news ul.news-list li.last-child {
+	}
+div.news ul.news-list li h4 {
+	display: inline;
+	color: #787878;
+	margin: 0;
+	padding: 0;
+	}
+div.news ul.news-list li h5 {
+	display: inline;
+	color: #787878;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	}
+div.news ul.news-list li h6 {
+	display: inline;
+	color: #7AA786;
+	font-weight: normal;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+	}
+div.news ul.news-list li p {
+	margin: 10px 0 0 0;
+	padding: 0 10px 0 0;
+	font-size: 11px;
+	}
+div.news ul.news-list li p a {
+	text-decoration: underline;
+	font-size: 11px;
+	}
+div.news ul.news-list li p a.readmore img {
+	text-decoration: none;
+	border: none;
+	}
+div.thumb {
+	border: 1px solid #91BD9C;
+	background-color: #FFF;
+	margin: 10px 25px 15px 0;
+	padding: 2px;
+	width: auto;
+	float: left;
+	clear: both;
+	}
+div.thumb img {
+	margin: 0 auto;
+	}
+div.thumb span {
+	display: block;
+	background-color: #D4D5D4;
+	width: inherit;
+	margin: 1px 0 0 0;
+	padding: 10px;
+	text-align: center;
+	font-size: 10px;
+	line-height: 6px;
+	}
+	
+/* Calendar List Styles
+------------------------------------------------------- */
+div.calendar-list dl.calendar-day  {
+	margin: 0;
+	padding: 0;
+	}
+div.calendar-list dl.calendar-day dt {
+	margin: 10px 0;
+	padding: 0 5px;
+	color: #435945;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 18px;
+	background-color: #E5EEE0;
+	}
+div.calendar-list dl.calendar-day dt.today {
+	color: #FFF;
+	background-color: #5C8768;
+	}
+div.calendar-list dl.calendar-day dd {	
+	margin: 0 0 10px 0;
+	font-size: 11px;
+	position: relative;
+	}
+div.calendar-list dl.calendar-day dd h4 {
+	font-weight: normal;
+	font-size: 12px;
+	display: block;
+	clear: both;
+	} 
+div.calendar-list dl.calendar-day dd h5, 
+div.calendar-list dl.calendar-day dd h5 span {
+	font-weight: bold;
+	font-size: 11px;
+	color: #5C8768;
+	display: inline;
+	}
+div.calendar-list dl.calendar-day dd h6, 
+div.calendar-list dl.calendar-day dd em {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 11px;
+	color: #5C8768;
+	display: inline;
+	}
+/* Calendar Detail Styles
+------------------------------------------------------- */
+div.calendar-detail {
+	padding: 0;
+	margin: 0;
+	}
+div.calendar-detail h1 {
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+	color: #787878;
+	}
+div.calendar-detail h2, 
+div.calendar-detail h3 {
+	display: inline;
+	padding: 0;
+	margin: 0;
+	font-size: 11px;
+	font-weight: normal;
+	color: #787878;
+	}
+div.calendar-detail h3 span {
+	font-size: 11px;
+	font-weight: bold;
+	color: #000;
+	}
+
+div.calendar-detail p {
+	padding: 0;
+	margin: 10px 0;
+	}
+/* Calendar Detail Image Styles
+------------------------------------------------------- */
+div.images {
+	}
+div.images div.col-1, 
+div.images div.col-2 {
+	float: left;
+	margin: 0 25px 25px 0;
+	padding: 0;
+	width: 329px;	
+	}
+div.images div.col-1 dl.images,
+div.images div.col-2 dl.images {
+	margin: 0;
+	padding: 0;
+	border
+	}
+div.images div.col-1 dl.images dt,
+div.images div.col-2 dl.images dt {
+	border: 1px solid #91BD9C;
+	border-bottom: none;
+	}
+div.images div.col-1 dl.images dt img,
+div.images div.col-2 dl.images dt img {
+	background-color: #FFF;
+	border: none;
+	padding: 2px;
+	margin: 0;
+	}
+div.images div.col-1 dl.images dd,
+div.images div.col-2 dl.images dd {
+	padding: 0;
+	margin: 0 0 10px 0;
+	border: 1px solid #91BD9C;
+	border-top: none;
+	}
+div.images div.col-1 dl.images dd p,
+div.images div.col-2 dl.images dd p {
+	margin: 0 2px 2px 2px;
+	padding: 5px;
+	background-color: #D4D4D4;
+	font-size: 10px;
+	line-height: 10px;
+	}
+
+/* Calendar Mini-block 
+------------------------------------------------------------*/
+form#calendar-switcher {
+	padding: 0;
+	margin: 0;
+	}
+form#calendar-switcher select {
+	width: 110px;  
+	background-color: #FFF;
+	margin: 0 0 6px 0; 
+	padding: 0; 
+	}
+div.calendar-mini {
+	padding: 0;
+	margin: 0;
+	width: 172px;
+	}
+div.calendar-mini div.display {
+	background-color: #FFF;
+	padding: 5px 5px 0 5px;
+	margin: 0;
+	width: 164px;
+	}
+div.calendar-mini p {
+	color: #52535C;
+	font-weight: bold;
+	margin: 5px 10px;
+	padding: 0;
+	}
+div.calendar-mini strong {
+	display: block;
+	padding: 8px 7px 0 7px;
+	}
+div.calendar-mini table {
+	margin: 0;
+	padding: 0;
+	background-color: #7F9A87;
+	width: 174px;
+	border: 4px solid #FFF;
+	}
+div.calendar-mini table a {
+	color: #C66300;
+	text-decoration: none;
+	}
+div.calendar-mini table th {
+	text-align: center;
+	font-size: 11px;
+	line-height: 24px;
+	font-weight: bold;
+	font-style: normal;
+	color: #52535C;
+	background-color: #D8E6D0;
+	border-bottom: 1px solid #7F9A87;
+	}
+div.calendar-mini table th abbr {
+	font-style: normal;
+	font-weight: bold;
+	border-bottom: none;
+	}
+div.calendar-mini table td {
+	text-align: center;
+	font-size: 11px;
+	line-height: 20px;
+	background: url(http://www.delbarton.org/imagesSP/bg-mini-cal.gif) left top no-repeat;
+	color: #315C3E;
+	height: 25px;
+	width: 25px;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 24px;
+	}
+html>body div.calendar-mini table td {
+	width: 24px;
+	}
+div.calendar-mini table td.last-child {
+	}
+div.calendar-mini table td span {
+	color: #D1DDD4;
+	background-image: none;
+	}
+div.calendar-mini table td span a {
+	text-decoration: line-through;
+	}
+div.calendar-mini table td a {
+	display: block;
+	color: #315C3E;
+	text-decoration: none;
+	}
+div.calendar-mini table td a:hover, 
+div.calendar-mini table td a.hover {
+	text-decoration: underline;
+	}
+div.calendar-mini table td a.today {
+	color: #315C3E;
+	font-weight: bold;
+	}
+div.calendar-prevnext {
+	width: 175px;
+	background-color: #FFF;
+	padding: 0;
+	margin: 10px 0 0 0;
+	}
+div.calendar-prevnext a.prev, 
+div.calendar-prevnext a.next {
+	display: block;
+	background-color: #FFF;
+	width: 83px;
+	height: 17px;
+	float: left;
+	text-indent: -3000px;
+	text-decoration: none;
+	}
+div.calendar-prevnext a.prev {
+	background: url(http://www.delbarton.org/imagesSP/mnth-prev.gif) 2px 2px no-repeat #FFF;
+	border: 1px solid #7E9986;
+	border-right: none;
+	padding: 2px 0 2px 2px;
+	}
+div.calendar-prevnext a.next {
+	background: url(http://www.delbarton.org/imagesSP/mnth-next.gif) 0 2px no-repeat #FFF;
+	border: 1px solid #7E9986;
+	border-left: none;
+	padding: 2px 2px 2px 0;
+	}
+
+/* Customize Calendar 
+------------------------------------------------------------*/
+.cal-customize {
+	width: 117px;
+	height: 75%;
+	position: absolute;
+	top: 30px;
+	left:390px;
+	padding: 0 0 0 18px;
+	margin: 20px 0 0 18px;
+	color: #1C3D2A;
+	font-weight: 11px;
+	border-left: 1px solid #BBB;
+	}
+.cal-customize h2 {
+	color: #3B674E;
+	font-size: 11px;
+	}
+.cal-customize a {
+	color: #3B674E;
+	font-weight: bold;
+	}
+form#customize {
+	padding: 0;
+	margin: 0;
+	}
+ul.calendar-formlist {
+	margin: 0 0 8px 0;
+	padding: 0 8px 0 0;
+	list-style: none;
+	}
+ul.calendar-formlist li {
+	font-size: 10px;
+	line-height: 12px;
+	padding: 2px 0;
+	}
+
+/* News Detail Styles
+------------------------------------------------------- */
+div.news-detail h1 {
+	color: #787878;
+	font-weight: bold;
+	}
+div.news-detail h2 {
+	color: #787878;
+	font-weight: normal;
+	margin: 0 0 10px 0;
+	}
+div.news-detail h3 {
+	color: #7AA786;
+	font-weight: normal;
+	font-size: 11px;
+	}
+div.news-detail p {
+	margin: 0 0 20px 0;
+	}
+	
+/** / Images 
+---------------------------------------------------- /**/
+dl.image,
+div.news-detail dl.image {
+	margin: 0 25px 0 0;
+	padding: 0;
+	width: auto;
+	float: left;
+	}
+dl.image dt {
+	}
+dl.image dt img {
+	background-color: #FFF;
+	border: 1px solid #C7C7C7;
+	padding: 2px;
+	margin: 0;
+	}
+dl.image dd {
+	padding: 0;
+	margin: 0;
+	}
+dl.image dd p {
+	font-size: 10px;
+	line-height: 10px;
+	}
+	
+/** / News /**/
+div.news-detail dl.image dt {
+	background-color: #FFF;
+	border: 1px solid #7AA786;
+	border-bottom: none;
+	}
+div.news-detail dl.image dt img {
+	border-style: none;
+	padding: 2px 2px 0 2px;
+	margin: 0 auto;
+	}
+div.news-detail dl.image dd {
+	background-color: #FFF;
+	border: 1px solid #7AA786;
+	border-top: none;
+	padding: 0;
+	margin: 0 auto 20px auto;
+	width: 327px;
+	}
+div.news-detail dl.image dd p  {
+	display: block;
+	background-color: #D4D5D4;
+	margin: 0 2px 2px 2px;
+	padding: 10px 5px;
+	text-align: center;
+	font-size: 10px;
+	line-height: 10px;
+	}
+	
+/* Side Bar
+------------------------------------------------------- */
+div.sc div.sc-daily, 
+div.sc div.sc-calendar, 
+div.sc div.sc-archives, 
+div.sc div.sc-useful, 
+div.sc div.sc-recentevents,  
+div.sc div.sc-today {
+	width: 172px;
+	margin: 0 0 20px 0;
+	padding: 0;
+	}
+div.sc div.sc-daily img, 
+div.sc div.sc-calendar img, 
+div.sc div.sc-recentevents {
+	padding: 0;
+	margin: 0 0 8px 0;
+	}
+div.sc div.sc-daily p, 
+div.sc div.sc-calendar p {
+	color: #5E7B61;
+	font-size: 9px;
+	text-align: right;
+	}
+div.sc div.sc-useful img {
+	padding: 0;
+	margin: 0 0 12px 0;
+	}
+div.sc div.sc-archives span {
+	}
+div.sc div.sc-recentevents div.calendar-list dl.calendar-day {
+	margin: 0 0 4px 0;
+	padding: 0;
+	width: 190px;
+	}
+div.sc div.sc-recentevents div.calendar-list dl.calendar-day dt {
+	display: inline;
+	margin: 0 4px 0 0;
+	padding: 0 4px 0 0;
+	color: #444;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 18px;
+	background-color: #FFF;
+	border-right: 1px solid #C6C6C6;
+	}
+div.sc div.sc-recentevents div.calendar-list dl.calendar-day dd, 
+div.sc div.sc-recentevents div.calendar-list dl.calendar-day dd h4 {
+	display: inline;
+	font-size: 10px;
+	color: #000;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	}
+div.sc div.sc-recentevents div.calendar-list dl.calendar-day dd h4 a, 
+div.sc div.sc-recentevents div.calendar-list dl.calendar-day dd h4 a.hover, 
+div.sc div.sc-recentevents div.calendar-list dl.calendar-day dd h4 a:hover {
+	font-size: 10px;
+	color: #000;
+	text-decoration: underline;
+	}
+div.sc div.sc-recentevents div.calendar-list dl.calendar-day dd h5, 
+div.sc div.sc-recentevents div.calendar-list dl.calendar-day dd h6, 
+div.sc div.sc-recentevents div.calendar-list dl.calendar-day dd em {
+	display: none;
+	}
+div.sc div.sc-gifts {
+	padding: 0;
+	margin: 0 0 20px 0;
+	}
+div.sc div.sc-alert {
+	border: 1px solid #6E9C78;
+	background-color: #FFF;
+	margin: 0 0 20px 0;
+	padding: 0;
+	}
+div.sc div.sc-alert ul {
+	margin: 0;
+	padding: 0 7px;
+	list-style: none;
+	}
+div.sc div.sc-alert ul li {
+	background: url(http://www.delbarton.org/imagesSP/sc-alert-bg.gif) 7px 0px repeat-y;
+	padding: 0 0 0 20px;
+	margin: 5px 0 0 0;
+	}
+div.sc div.sc-alert ul li h4, 
+div.sc div.sc-board h4 {
+	color: #4F4F4F;
+	margin: 0 0 4px 05;
+	padding: 0;
+	font-size: 11px;
+	}
+div.sc div.sc-alert ul li h5 {
+	color: #505050;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	}
+div.sc div.sc-alert ul li h6 {
+	font-size: 10px;
+	color: #5C8768;
+	margin: 0 0 14px 0;
+	padding: 0;
+	}
+div.sc div.sc-alert ul li p {
+	margin: 0 0 8px 0;
+	padding: 0;
+	}
+
+
+div.sc ul.sc-archives {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}
+div.sc ul.sc-archives li {
+	margin: 0 0 10px 0;
+	padding: 0;
+	}
+div.sc ul.sc-archives li h4, {
+	margin: 0;
+	padding: 0;
+	font-size: 10px;
+	font-weight: normal;
+	display: inline;
+	}
+div.sc ul.sc-archives li h6 {
+	margin: 0;
+	padding: 0;
+	font-size: 10px;
+	display: inline;
+	}
+div.sc ul.sc-archives li h4 a {
+	color: #000;
+	}
+div.sc ul.sc-archives li h6 {
+	color: #444;
+	font-weight: normal;
+	line-height: 12px;
+	border-right: 1px solid #C6C6C6;
+	padding: 0 4px 0 0;
+	margin: 0 4px 0 0;
+	}
+	
+/* Annoucements
+-------------------------------------------------------- */
+body#announcements {
+	background-image: none;
+	background-color: #E1E1E1;
+	margin: 15px 20px;
+	padding: 0;
+	}
+body#announcements #header {
+	/** /background: url(../imagesSP/hdr-annoucements.gif) top left no-repeat;/**/
+	margin: 0;
+	padding: 0;
+	}
+body#announcements #masthead {
+	display: none;
+	}
+body#announcements #container { 
+	}
+body#announcements #inner-container { 
+	background-color: #FFF;
+	border: 1px solid #8D8D8D;
+	}
+body#announcements #content {
+	padding: 15px;
+	margin: 0;
+	}
+body#announcements #inner-content {
+	padding: 0;
+	margin: 0;
+	}
+body#announcements #primary-content.announcements {
+    top: 0;
+	padding: 0;
+	margin: 0;
+	}
+body#announcements #secondary-content {
+	display: none;
+	}
+body#announcements div.date {
+	border: 1px solid #C6C6C6;
+	color: #173F2E;
+	background-color: #EAF3EB;
+	line-height: 20px;
+	font: 14px/18px "Arial", Arial, non-serif;
+	margin: 0 0 15px 0;
+	padding: 0 12px;
+	}
+body#announcements div.date span {
+	color: #4B7462;
+	}
+body#announcements div.date span strong {
+	color: #17402E;
+	}
+body#announcements div.date div.calendar-list {
+	margin: 0;
+	padding: 0;
+	}
+body#announcements div.date div.calendar-list dl.calendar-day {
+	margin: 0;
+	padding: 0;
+	}
+body#announcements div.date div.calendar-list dt {
+	margin: 0;
+	padding: 0;
+	display: none;
+	}
+body#announcements div.date div.calendar-list dd h4 span {
+	display: none;
+	}
+body#announcements div.date div.calendar-list dd, 
+body#announcements div.date div.calendar-list dd h4 {
+	margin: 0;
+	padding: 0;
+	font: bold 14px/18px "Arial", Arial, non-serif;
+	}
+	
+body#announcements div.madisonblock {
+	background: url(http://www.delbarton.org/imagesSP/hdr-madisonblock.gif) center top no-repeat;
+	padding: 50px 0 0 0;
+	margin: 0 0 20px 0;
+	text-align: center;
+	}
+body#announcements div.madisonblock ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font: italic 14px/18px "Georgia", Times, serif;
+	}
+body#announcements div.madisonblock ul li h4 {
+	font-style: normal;
+	font: bold 14px/18px "Georgia", Times, serif;
+	color: #4C4C4C;
+	margin: 0;
+	padding: 0;
+	}
+body#announcements div.madisonblock ul li h5, 
+body#announcements div.madisonblock ul li h6 {
+	display: none;
+	}
+body#announcements div.info div.col-1, 
+body#announcements div.info div.col-2 {
+	float: left;
+	margin: 0;
+	padding: 0 10px;
+	width: 335px;
+	}
+body#announcements div.info div.col-1 ul.news, 
+body#announcements div.info div.col-2 ul.news {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}
+body#announcements div.info div.col-1 ul.news li h4, 
+body#announcements div.info div.col-2 ul.news li h4 {
+	margin: 0 0 6px 0;
+	padding: 0 0 0 12px;
+	font-size: 13px;
+	color: #122F11;
+	background: url(http://www.delbarton.org/imagesSP/announcement-bullet.gif) 0px 3px no-repeat;
+	text-transform: uppercase;
+	}
+
+body#announcements div.info div.col-1 ul.news li h5, 
+body#announcements div.info div.col-2 ul.news li h5, 
+body#announcements div.info div.col-1 ul.news li h6, 
+body#announcements div.info div.col-2 ul.news li h6 {
+	display: none;
+	}
+body#announcements div.info div.col-1 ul.news li, 
+body#announcements div.info div.col-2 ul.news li {
+	margin: 0 0 15px 0;
+	padding: 0;
+	}
+body#announcements div.info div.col-1 ul.news li p, 
+body#announcements div.info div.col-2 ul.news li p {
+	margin: 0 0 6px 0;
+	padding: 0;
+	}
+body#announcements div.info div.col-1 ul.news li a.readmore, 
+body#announcements div.info div.col-2 ul.news li a.readmore {
+	color: #538157;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	}
+body#announcements div.schedule-main {
+	clear: both;
+	margin: 0;
+	text-align: center;
+	padding: 0 0 45px 0;
+	background: url(http://www.delbarton.org/imagesSP/hdr-greenwave.gif) center bottom no-repeat;
+	}
+body#announcements div.schedule-main ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	}
+body#announcements div.schedule-main table {
+	border: 1px solid #4A704E;
+	width: 600px;
+	align: center;
+	color: #5A5A5A;
+	margin: 0 auto;
+	padding: 2px;
+	}
+body#announcements div.schedule-main table tr.alt01 {
+	background-color: #DDEDDF;
+	}
+body#announcements div.schedule-main table tr.alt02 {
+	background-color: #FFF;
+	}
+body#announcements div.schedule-main table tr td {
+	line-height: 20px;
+	text-align: center;
+	}
+	
+/* DMG Files Button
+-------------------------------------------------------- */
+img.files {
+	position: absolute;
+	top: 10px;
+	left: 445px;
+	}
+	
+/* ------------------------------------------------------------------------------------- */
+/* Weekly Calendar Layouts */
+/* body.layout-p1-s0#calendar #container {
+	width: 97%;
+	}*/
+/* #content {
+	border-left: 1px solid #C8CDD4;
+	border-right: 1px solid #ff0000;
+	background-image: none;
+	}  */
+/* body.layout-p1-s0#calendar #header.calendar #masthead {
+	background: url(../images/calendars/masthead-bg.gif) left top repeat-x #FFF;
+	width: 100%;
+	} */
+/* body.layout-p1-s0#calendar #header.calendar #masthead a {
+	width: 100%;
+	} */
+/* body.layout-p1-s0#calendar #nav-sub {
+	background: url(../images/calendars/nav-sub-bg.gif) top left repeat-x;
+	} */
+/* body.layout-p1-s0#calendar #primary-content {
+	width: 95%;
+	} */
+/* body.layout-p1-s0#calendar #secondary-content {
+	display: none;
+	} */
+/* body.layout-p1-s0#calendar #tertiary-content {
+	display: none;
+	} */
+/* body.layout-p1-s0#calendar #footer {
+	padding: 0;
+	margin: 0;
+	} */
+
+body.layout-p1-s0#calendar table#block, 
+body.layout-p1-s0#calendar table#weekly {
+	}
+body.layout-p1-s0#calendar table#block th, 
+body.layout-p1-s0#calendar table#weekly th {
+	color: #435945;
+	font-weight: bold;
+	background-color: #E5EEE0;
+	font-size: 11px;
+	line-height: 18px;
+	text-align: center;
+	}
+body.layout-p1-s0#calendar table#block td, 
+body.layout-p1-s0#calendar table#weekly td {
+	font-size: 11px;
+	border: 1px solid #D3D3D3;
+	width: 16%;
+	padding: 1px;
+	margin: 0;
+	}
+body.layout-p1-s0#calendar table#block td p, 
+body.layout-p1-s0#calendar table#weekly td p {
+	font-size: 11px;
+	
+}
+body.layout-p1-s0#calendar table#block td span.weekday , 
+body.layout-p1-s0#calendar table#weekly td span.weekday {
+	color: #435945;
+	font-weight: bold;
+	display: block;
+	}
+body.layout-p1-s0#calendar table#block td table, 
+body.layout-p1-s0#calendar table#block td table td, 
+body.layout-p1-s0#calendar table#weekly td table, 
+body.layout-p1-s0#calendar table#weekly td table td {
+	border: none;
+	} 
+/* ------------------------------------------------------------------------------------- */

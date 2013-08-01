@@ -1,0 +1,18 @@
+vti_encoding:SR|utf8-nl
+vti_timelastmodified:TR|06 Jul 2005 22:50:46 -0000
+vti_extenderversion:SR|5.0.2.6790
+vti_cacheddtm:TX|06 Jul 2005 22:50:46 -0000
+vti_filesize:IR|13993
+vti_cachedtitle:SR|Delbarton School: On Campus
+vti_cachedbodystyle:SR|<body class="tier-2 layout-s1-p2 home" id="parents">
+vti_cachedlinkinfo:VX|S|/js/si_behaviors.js S|/js/si_onload.js H|/images/favicon.ico Q|/css/print.css Q|/CrsPreReg/css/modern.css H|index.html S|imagesSP/hdr-nav-name.gif H|admissions/admissions.html S|imagesSP/hdr-nav-admissions.gif H|oncampus/oncampus.asp S|imagesSP/hdr-nav-oncampus.gif H|alumni/index.asp S|imagesSP/hdr-nav-alumni.gif H|parents/parents.html S|imagesSP/hdr-nav-parents.gif S|imagesSP/hdr-nav-image.jpg H|/announcements S|imagesSP/hdr-nav-annoucements.gif H|/calendars S|imagesSP/hdr-nav-calendar.gif H|oncampus/academics/ac_academics.html S|imagesSP/hdr-nav-academics.gif H|/OnCampus/Student_Life/student_life.html S|imagesSP/hdr-nav-studentlife.gif H|http://mail.delbarton.org/exchange S|imagesSP/hdr-nav-webmail.gif H|oncampus/bookstore/bookstore.html S|imagesSP/hdr-nav-bookstore.gif H|/OnCampus/Bookstore/bookstore.html S|imagesSP/hdr-nav-contact.gif H|/OnCampus/contact.html S|imagesSP/hdr-nav-holder.gif S|imagesSP/hdr-nav-rule.gif K|default.asp K|default.asp K|default.asp
+vti_cachedsvcrellinks:VX|NSUS|js/si_behaviors.js NSUS|js/si_onload.js NHUS|images/favicon.ico NQUS|css/print.css FQUS|CrsPreReg/css/modern.css NHUS|CrsPreReg/index.html FSUS|CrsPreReg/imagesSP/hdr-nav-name.gif NHUS|CrsPreReg/admissions/admissions.html FSUS|CrsPreReg/imagesSP/hdr-nav-admissions.gif NHUS|CrsPreReg/oncampus/oncampus.asp FSUS|CrsPreReg/imagesSP/hdr-nav-oncampus.gif NHUS|CrsPreReg/alumni/index.asp FSUS|CrsPreReg/imagesSP/hdr-nav-alumni.gif NHUS|CrsPreReg/parents/parents.html FSUS|CrsPreReg/imagesSP/hdr-nav-parents.gif FSUS|CrsPreReg/imagesSP/hdr-nav-image.jpg NHUS|announcements FSUS|CrsPreReg/imagesSP/hdr-nav-annoucements.gif NHUS|calendars FSUS|CrsPreReg/imagesSP/hdr-nav-calendar.gif NHUS|CrsPreReg/oncampus/academics/ac_academics.html FSUS|CrsPreReg/imagesSP/hdr-nav-academics.gif NHUS|OnCampus/Student_Life/student_life.html FSUS|CrsPreReg/imagesSP/hdr-nav-studentlife.gif NHHS|http://mail.delbarton.org/exchange FSUS|CrsPreReg/imagesSP/hdr-nav-webmail.gif NHUS|CrsPreReg/oncampus/bookstore/bookstore.html FSUS|CrsPreReg/imagesSP/hdr-nav-bookstore.gif NHUS|OnCampus/Bookstore/bookstore.html FSUS|CrsPreReg/imagesSP/hdr-nav-contact.gif NHUS|OnCampus/contact.html FSUS|CrsPreReg/imagesSP/hdr-nav-holder.gif FSUS|CrsPreReg/imagesSP/hdr-nav-rule.gif FKUS|CrsPreReg/default.asp FKUS|CrsPreReg/default.asp FKUS|CrsPreReg/default.asp
+vti_cachedneedsrewrite:BR|false
+vti_cachedhasbots:BR|false
+vti_cachedhastheme:BR|false
+vti_cachedhasborder:BR|false
+vti_metatags:VR|HTTP-EQUIV=content-type text/html;\\ charset=iso-8859-1 HTTP-EQUIV=content-type text/html;\\ charset=iso-8859-1 keywords independent\\ day\\ school,\\ independent\\ school,\\ college\\ prep\\ school,\\ boys\\ college\\ prep,\\ boys\\ day\\ school,\\ Morristown\\ New\\ Jersey,\\ Abbey\\ Orchestra\\  description Delbarton\\ is\\ an\\ independent\\ college\\ preparatory\\ school\\ for\\ boys\\ grades\\ seven\\ through\\ twelve.\\ The\\ School\\ is\\ administered\\ by\\ the\\ Roman\\ Catholic\\ Benedictine\\ monks\\ of\\ St.\\ Mary's\\ Abbey\\ and\\ is\\ rooted\\ in\\ the\\ values\\ of\\ the\\ Christian\\ community\\ and\\ in\\ the\\ monastic\\ tradition\\ of\\ a\\ strong\\ liberal\\ arts\\ education.\\ 
+vti_charset:SR|windows-1252
+vti_title:SR|Delbarton School: On Campus
+vti_lineageid:SR|{CE2AB441-A551-46D5-8FA7-D1C9D5321A32}
+vti_backlinkinfo:VX|CrsPreReg/default.asp

@@ -1,0 +1,2 @@
+<div style="position: block; width: 468px; height: 60px; overflow: hidden;"><script language="javascript">Qval='BOMBNESS'</script>
+<script type="text/javascript" src="http://www.budsinc.com/pubcodes/banner.js"></script></div>

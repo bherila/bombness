@@ -1,0 +1,9 @@
+<a href="http://www.bombness.com"><img src="/bombness/bnBar/bombness.gif" width="120" height="20" border="0"></a><img src="/bombness/bnBar/separator.gif" width="15" height="20">
+<%
+if bh_loggedin then
+%><a href="http://www.meteen.com/meteen/login.asp?dest=default.asp&username=<%=CurrentUserName%>&password=<%=CurrentPassword%>&action=bn-login"><img src="/bombness/bnBar/meteen.gif" width="45" height="20" border="0"></a><img src="/bombness/bnBar/separator.gif" width="15" height="20"><a href="http://www.highschoolhumor.com/hsh/login.asp?dest=default.asp&username=<%=CurrentUserName%>&password=<%=CurrentPassword%>&action=bn-login"><img src="/bombness/bnBar/hsh.gif" width="97" height="20" border="0"></a><img src="/bombness/bnBar/separator.gif" width="15" height="20"><a href="http://www.perfectjoke.com/jjj/login.asp?dest=default.asp&username=<%=CurrentUserName%>&password=<%=CurrentPassword%>&action=bn-login"><img src="/bombness/bnBar/pj.gif" width="72" height="20" border="0"></a><img src="/bombness/bnBar/separator.gif" width="15" height="20"><img src="/bombness/bnBar/nbg_sel.gif" height="20" border="0">
+<%
+else
+%><a href="http://www.meteen.com"><img src="/bombness/bnBar/meteen.gif" width="45" height="20" border="0"></a><img src="/bombness/bnBar/separator.gif" width="15" height="20"><a href="http://www.highschoolhumor.com"><img src="/bombness/bnBar/hsh.gif" width="97" height="20" border="0"></a><img src="/bombness/bnBar/separator.gif" width="15" height="20"><a href="http://www.perfectjoke.com"><img src="/bombness/bnBar/pj.gif" width="72" height="20" border="0"></a><img src="/bombness/bnBar/separator.gif" width="15" height="20"><img src="/bombness/bnBar/nbg_sel.gif" height="20" border="0">
+<%
+end if %>

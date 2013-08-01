@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsCgn" value="name:id;datatype:3,name:name;datatype:200,name:html;datatype:201,name:impressions;datatype:3,name:actions;datatype:3,name:impressions.max;datatype:3,name:actions.max;datatype:3,name:active;datatype:11,name:type;datatype:17,name:sec;datatype:3,name:expires;datatype:11,name:start_date;datatype:135,name:days;datatype:3,name:price;datatype:4,name:limit;datatype:200,name:ip_time;datatype:4" />
+</info>

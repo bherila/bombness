@@ -1,0 +1,5 @@
+0=Banner
+1=Skyscraper Particle
+2=Skyscraper
+3=Big Banner
+4=Text Link

@@ -1,0 +1,92 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/BN-CompactLayout.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Bombness Networks</title>
+<!-- InstanceEndEditable --><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body {
+	background-image:   url(../layout/nav-tile.gif);
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-repeat: repeat-y;
+	background-color: #FFFFFF;
+}
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+}
+a:link {
+	color: #0066CC;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #0000CC;
+}
+a:hover {
+	text-decoration: underline;
+	color: #009966;
+}
+a:active {
+	text-decoration: none;
+	color: #FF0000;
+}
+.navlink {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-weight:bold;
+	color: #374278;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: "Franklin Gothic Medium", Verdana, Arial;
+	font-weight: normal;
+}
+h1 {
+	font-size: 18pt;
+}
+-->
+</style>
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="208" background="../layout/h-tile.gif"><img src="../layout/logo.jpg" alt="Home" width="208" height="90" border="0"></td>
+    <td width="22" background="../layout/h-tile.gif"><img src="../layout/logo2.gif" alt="Home" width="22" height="90" border="0"></td>
+    <td align="right" valign="top" background="../layout/h-tile.gif" style="background-repeat: repeat-x;">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="208" align="left" valign="top" background="../layout/nav-tile.gif"><table width="200"  border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="10" align="left" valign="top">&nbsp;</td>
+        <td align="left" valign="top" style="padding-top: 5px;"><!-- InstanceBeginEditable name="Sidebar" -->
+          <p><strong>Send Mail</strong></p>
+          <p>This script will send e-mail messages to members specified in the SQL query here. </p>
+        <!-- InstanceEndEditable --></td>
+      </tr>
+    </table></td>
+    <td colspan="2" align="left" valign="top" style="padding-top: 5px; padding-left: 15px;"><!-- InstanceBeginEditable name="PageTitle" -->
+    <h1>SQL Data Selection </h1>
+    <!-- InstanceEndEditable -->
+      <!-- InstanceBeginEditable name="PageContent" -->
+      <form name="form1" method="post" action="">
+        <p>Enter an SQL query to select e-mail addresses.</p>
+        <p>&nbsp;</p>
+        <p>Now, select data mappings to create variable fields.</p>
+        <p>&nbsp;</p>
+        <p>Next, enter the subject, from address, and body of the e-mail you wish to send. </p>
+        <p>Finally, click the button below to send your messages.</p>
+      </form>
+      <p>&nbsp;</p>
+    <!-- InstanceEndEditable --></td>
+  </tr>
+</table>
+</body>
+<!-- InstanceEnd --></html>
